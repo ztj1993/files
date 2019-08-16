@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 docs_dir=/docsify.docs
 
 if [[ ! -f /docsify_index.html ]]; then
@@ -29,3 +31,5 @@ for doc_dir in $(ls ${docs_dir}); do
         sed -i "s/loadNavbar\:.*,/loadNavbar: false,/" ${docs_dir}/${doc_dir}/index.html
     fi
 done
+
+exec "$@"
