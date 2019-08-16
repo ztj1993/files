@@ -2,6 +2,8 @@
 
 set -e
 
+echo "system starting......"
+
 docs_dir=${DOCSIFY_DOCS_DIR:-/docsify.docs}
 echo "docs dir: ${docs_dir}"
 
