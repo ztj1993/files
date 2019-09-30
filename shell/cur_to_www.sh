@@ -4,11 +4,8 @@
 # Name: current directory link to www
 # Author: Ztj
 # Email: ztj1993@gmail.com
-# LastDate: 2019-06-19
-# Use:
-#     wget https://raw.githubusercontent.com/ztj1993/files/master/shell/cur_to_www.sh
-#     chmod +x cur_to_www.sh
-#     sudo ./cur_to_www.sh
+# LastDate: 2019-09-30
+# Use: curl -fsSL https://dwz.cn/biLTsLPt | sudo bash
 ###############
 
 set -e
