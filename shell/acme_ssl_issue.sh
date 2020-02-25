@@ -1,22 +1,17 @@
 #!/bin/bash
 
 ###############
-# Name: web ssl create(private)
+# Name: acme ssl issue
 # Author: Ztj
 # Email: ztj1993@gmail.com
-# LastDate: 2019-06-19
-# Use:
-#     wget https://raw.githubusercontent.com/ztj1993/files/master/shell/web_ssl.sh
-#     chmod +x web_ssl.sh
-#     sudo ./web_ssl.sh
-#     or
-#     curl -fsSL https://raw.githubusercontent.com/ztj1993/files/master/shell/web_ssl.sh | bash
+# Date: 2020-02-25
 ###############
 
 set -e
 
 domain=${domain:-${1:-domain}}
-ssl_dir=${ssl_dir:-${2:-/etc/nginx/ssl}}
+ssl_dir=${ssl_dir:-/etc/nginx/ssl/${domain}}
+acme_container=${ssl_dir:-/etc/nginx/ssl/${domain}}
 
 [[ -z ${domain} ]] && echo ">>> Not domain." && exit 1
 
