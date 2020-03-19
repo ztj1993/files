@@ -1,0 +1,2003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang>
+  <language>中文UTF-8</language>
+  <version>1.0</version>
+  <author>刘凡</author>    
+  <email>mcwolf2000@126.com</email>
+  <forms>
+    <AboutDlg>
+      <component name="BtnClose">
+        <Caption>关闭</Caption>
+      </component>
+    </AboutDlg>
+    <AccountCopyDlg>
+      <component name="Label1">
+        <Caption>新名字:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>存储路径:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </AccountCopyDlg>
+    <ADPassDlg>
+      <caption>设置密码</caption>
+      <component name="Label1">
+        <Caption>新密码:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>确认密码:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>&amp;取消</Caption>
+      </component>
+    </ADPassDlg>
+    <AliasDlg>
+     <Caption>别名设置</Caption>
+      <component name="Button2">
+        <Caption>取消</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>别名</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>别名位置:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>别名:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>DN:</Caption>
+      </component>
+      <component name="GroupBox2">
+        <Caption>对象</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>DN:</Caption>
+      </component>
+    </AliasDlg>
+    <ComputerDlg>
+      <caption>创建主机账号</caption>
+      <component name="Label1">
+        <Caption>主机名:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>域:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </ComputerDlg>
+    <ConfigDlg>
+      <caption>选项</caption>
+      <component name="TabSheet1">
+        <Caption>应用程序</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>LDAP树</Caption>
+      </component>
+      <component name="cbIdObject">
+        <Caption>Identify objects</Caption>
+      </component>
+      <component name="cbEnforceContainer">
+        <Caption>Enforce container objects</Caption>
+      </component>
+      <component name="cbSmartDelete">
+        <Caption>Smart delete</Caption>
+      </component>
+      <component name="cbTemplateIcons">
+        <Caption>Template icons</Caption>
+      </component>
+      <component name="GroupBox3">
+        <Caption>启动</Caption>
+      </component>
+      <component name="cbConnect">
+        <Caption>启动时连接</Caption>
+      </component>
+      <component name="SetDefBtn">
+        <Caption>设置为默认ldap浏览器</Caption>
+      </component>
+      <component name="CheckAssocCbk">
+        <Caption>启动检查默认ldap浏览器设置</Caption>
+      </component>
+      <component name="GroupBox4">
+        <Caption>搜索</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>快捷搜索过滤器:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>过滤器:</Caption>
+      </component>
+      <component name="TabSheet2">
+        <Caption>模板</Caption>
+      </component>
+      <component name="GroupBox2">
+        <Caption>文件</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>模板文件路径:</Caption>
+      </component>
+      <component name="btnAdd">
+        <Caption>添加...</Caption>
+      </component>
+      <component name="btnDel">
+        <Caption>删除</Caption>
+      </component>
+      <component name="GroupBox5">
+        <Caption>选项</Caption>
+      </component>
+      <component name="cbTemplateExtensions">
+        <Caption>允许属性编辑框中模板扩展</Caption>
+      </component>
+      <component name="cbTemplateAutoload">
+        <Caption>编辑时自动选择模板</Caption>
+      </component>
+      <component name="cbTemplateProperties">
+        <Caption>将模板作为属性编辑框</Caption>
+      </component>
+      <component name="TabSheet3">
+        <Caption>本地化</Caption>
+      </component>
+      <component name="GroupBox6">
+        <Caption>语言</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>语言包路径:</Caption>
+      </component>
+      <component name="btnAddLang">
+        <Caption>添加...</Caption>
+      </component>
+      <component name="btnDelLang">
+        <Caption>删除</Caption>
+      </component>
+      <component name="GroupBox7">
+        <Caption>编码转换</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>字符编码转换表:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </ConfigDlg>
+    <ConnListFrm>
+      <caption>连接</caption>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="ToolButton3">
+        <hint>视图风格</hint>
+      </component>
+      <component name="ActNewAccount">
+        <caption>新建...</caption>
+        <hint>新建连接</hint>
+      </component>
+      <component name="ActDeleteAccount">
+        <caption>删除</caption>
+        <hint>删除连接</hint>
+      </component>
+      <component name="ActRenameAccount">
+        <caption>重命名</caption>
+        <hint>重命名连接</hint>
+      </component>
+      <component name="ActNewStorage">
+        <hint>新建连接配置文件</hint>
+      </component>
+      <component name="ActOpenStorage">
+        <hint>打开连接配置文件</hint>
+      </component>
+      <component name="ActCopyAccount">
+        <Caption>复制连接...</Caption>
+      </component>
+      <component name="ActPropertiesAccount">
+        <Caption>连接属性...</Caption>
+      </component>
+      <component name="ActDeleteStrorage">
+        <hint>删除连接配置文件</hint>
+      </component>
+      <component name="vmSmall">
+        <caption>小图标</caption>
+      </component>
+      <component name="vmLarge">
+        <caption>大图标</caption>
+      </component>
+      <component name="vmList">
+        <caption>列表</caption>
+      </component>
+      <component name="vmTable">
+        <caption>详细信息</caption>
+      </component>
+    </ConnListFrm>
+    <ConnPropDlg>
+      <caption>连接参数</caption>
+      <component name="Label1">
+        <Caption>连接名:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="TestBtn">
+        <Caption>测试连接</Caption>
+      </component>
+      <component name="TabSheet1">
+        <Caption>常用</Caption>
+      </component>
+      <component name="AccountBox">
+        <Caption>账号</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>用户名:</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>密码:</Caption>
+      </component>
+      <component name="cbAnonymous">
+        <Caption>匿名连接</Caption>
+      </component>
+      <component name="ConnectionBox">
+        <Caption>连接:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>主机:</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>端口:</Caption>
+      </component>
+      <component name="Label7">
+        <Caption>版本:</Caption>
+      </component>
+      <component name="Label6">
+        <Caption>Base DN:</Caption>
+      </component>
+      <component name="FetchDnBtn">
+        <Caption>获取DN</Caption>
+      </component>
+      <component name="rbSimpleAuth">
+        <Caption>简单认证</Caption>
+      </component>
+      <component name="rbGssApi">
+        <Caption>GSS-API</Caption>
+      </component>
+      <component name="cbSSL">
+        <Caption>SSL</Caption>
+      </component>
+      <component name="cbSASL">
+        <Caption>SASL</Caption>
+      </component>
+      <component name="cbTLS">
+        <Caption>TLS</Caption>
+      </component>
+      <component name="TabSheet2">
+        <Caption>选项</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>搜索参数</Caption>
+      </component>
+      <component name="Label15">
+        <Caption>页面大小:</Caption>
+      </component>
+      <component name="Label14">
+        <Caption>时间限制:</Caption>
+      </component>
+      <component name="Label13">
+        <Caption>大小限制:</Caption>
+      </component>
+      <component name="Label8">
+        <Caption>Dereference aliase:</Caption>
+      </component>
+      <component name="cbDerefAliases">
+        <items>Never,When searching,When finding,Always</items>
+      </component>
+      <component name="cbxPagedSearch">
+        <Caption>Page-size</Caption>
+      </component>
+      <component name="GroupBox2">
+        <Caption>Referrals</Caption>
+      </component>
+      <component name="Label10">
+        <Caption>Chase referrals:</Caption>
+      </component>
+      <component name="cbReferrals">
+        <items>Enable,Disable</items>
+      </component>
+      <component name="Label11">
+        <Caption>Referral hops:</Caption>
+      </component>
+      <component name="TabSheet3">
+        <Caption>属性</Caption>
+      </component>
+      <component name="cbxShowAttrs">
+        <Caption>显示可操作的属性:</Caption>
+      </component>
+      <component name="btnAdd">
+        <Caption>添加</Caption>
+      </component>
+      <component name="btnRemove">
+        <Caption>移除</Caption>
+      </component>
+    </ConnPropDlg>
+    <CopyDlg>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>目标服务器:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>条目名:</Caption>
+      </component>
+    </CopyDlg>
+    <CustomMenuDlg>
+      <caption>菜单定制</caption>
+      <component name="btnCancel">
+        <Caption>取消</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>菜单文字:</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>动作选项</Caption>
+      </component>
+      <component name="rbDisabled">
+        <Caption>未激活</Caption>
+      </component>
+      <component name="rbDefaultAction">
+        <Caption>缺省动作</Caption>
+      </component>
+      <component name="rbTemplate">
+        <Caption>模板</Caption>
+      </component>
+      <component name="GroupBox2">
+        <Caption>热键</Caption>
+      </component>
+      <component name="cbCtrl">
+        <Caption>Ctrl</Caption>
+      </component>
+      <component name="cbShift">
+        <Caption>Shift</Caption>
+      </component>
+      <component name="cbAlt">
+        <Caption>Alt</Caption>
+      </component>
+    </CustomMenuDlg>
+    <EditEntryFrm>
+      <component name="Label1">
+        <Caption>in:</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>Rdn:</Caption>
+      </component>
+      <component name="SaveBtn">
+        <hint>保存并关闭</hint>
+      </component>
+      <component name="DeleteCellsBtn">
+        <hint>删除单元</hint>
+      </component>
+      <component name="SchemaCheckBtn">
+        <hint>检查Schema</hint>
+      </component>
+      <component name="UndoBtn">
+        <hint>撤销</hint>
+      </component>
+      <component name="CutBtn">
+        <hint>剪切</hint>
+      </component>
+      <component name="CopyBtn">
+        <hint>复制</hint>
+      </component>
+      <component name="PasteBtn">
+        <hint>粘贴</hint>
+      </component>
+      <component name="DeleteBtn">
+        <hint>删除</hint>
+      </component>
+      <component name="ExitBtn">
+        <hint>关闭</hint>
+      </component>
+      <component name="OcSheet">
+        <Caption>编辑</Caption>
+      </component>
+      <component name="TemplateSheet">
+        <Caption>模板</Caption>
+      </component>
+      <component name="mbFile">
+        <Caption>文件</Caption>
+      </component>
+      <component name="mbEdit">
+        <Caption>编辑</Caption>
+      </component>
+      <component name="ActSave">
+        <Caption>保存</Caption>
+      </component>
+      <component name="ActClose">
+        <Caption>关闭</Caption>
+      </component>
+      <component name="ActDeleteRow">
+        <Caption>删除行</Caption>
+      </component>
+      <component name="ActUndo">
+        <Caption>撤销编辑</Caption>
+      </component>
+      <component name="ActCut">
+        <Caption>剪切</Caption>
+      </component>
+      <component name="ActCopy">
+        <Caption>复制</Caption>
+      </component>
+      <component name="ActPaste">
+        <Caption>粘贴</Caption>
+      </component>
+      <component name="ActDelete">
+        <Caption>删除</Caption>
+      </component>
+      <component name="ActLoadFile">
+        <Caption>从文件调入...</Caption>
+      </component>
+      <component name="ActSaveFile">
+        <Caption>保存到文件...</Caption>
+      </component>
+      <component name="ActBinView">
+        <Caption>查看二进制数据...</Caption>
+      </component>
+      <component name="ActSchemaCheck">
+        <Caption>Schema检查</Caption>
+      </component>
+      <component name="ActFindInSchema">
+        <Caption>在Schema中查找...</Caption>
+      </component>
+      <component name="ActPicView">
+        <Caption>查看图片...</Caption>
+      </component>
+      <component name="ActCertView">
+        <Caption>查看证书...</Caption>
+      </component>
+      <component name="TemplateListBox">
+        <items>All</items>
+      </component>
+    </EditEntryFrm>
+    <ExportDlg>
+      <caption>导出LDIF文件</caption>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>文件名:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>导出选项:</Caption>
+      </component>
+      <component name="SubDirsCbk">
+        <Caption>包含子目录</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>进度:</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>导出:</Caption>
+      </component>
+    </ExportDlg>
+    <GroupDlg>
+      <caption>创建组</caption>
+      <component name="Label1">
+        <Caption>组名字:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="TabSheet1">
+        <Caption>成员</Caption>
+      </component>
+      <component name="AddUserBtn">
+        <Caption>添加</Caption>
+      </component>
+      <component name="RemoveUserBtn">
+        <Caption>移除</Caption>
+      </component>
+      <component name="TabSheet2">
+        <Caption>Samba</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>samba域:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>NT-Rid:</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>显示名称:</Caption>
+      </component>
+      <component name="RadioGroup1">
+        <Caption>组类型:</Caption>
+        <items>Domain group,"Local group",Built-in group:</items>
+      </component>
+      <component name="cbSambaGroup">
+        <Caption>Samba域名映射</Caption>
+      </component>
+      <component name="cbBuiltin">
+        <items>域管理员,域用户,域guests</items>
+      </component>
+    </GroupDlg>
+    <HexView>
+      <caption>二进制查看</caption>
+      <component name="Label1">
+        <Caption>10进制:</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>2进制:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>地址:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>大小:</Caption>
+      </component>
+      <component name="pbHex">
+        <Caption>16进制:</Caption>
+      </component>
+      <component name="pbDezimal">
+        <Caption>10进制</Caption>
+      </component>
+      <component name="Button2">
+        <Caption>关闭</Caption>
+      </component>
+    </HexView>
+    <HostDlg>
+      <caption>创建主机</caption>
+      <component name="NameLabel">
+        <Caption>主机名:</Caption>
+      </component>
+      <component name="IPLabel">
+        <Caption>IP地址:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>附加主机名:</Caption>
+      </component>
+      <component name="AddHostBtn">
+        <Caption>添加</Caption>
+      </component>
+      <component name="EditHostBtn">
+        <Caption>编辑</Caption>
+      </component>
+      <component name="DelHostBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </HostDlg>
+    <ImportDlg>
+      <caption>导入LDIF文件</caption>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>文件名:</Caption>
+      </component>
+      <component name="Label6">
+        <Caption>保存冲突记录到文件:</Caption>
+      </component>
+      <component name="cbStopOnError">
+        <Caption>遇到错误停止</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>进度:</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>导入:</Caption>
+      </component>
+      <component name="errLabel">
+        <Caption>错误!</Caption>
+      </component>
+    </ImportDlg>
+    <InputDlg>
+      <component name="Eingabe">
+        <Caption />
+      </component>
+      <component name="CancelBtn">
+        <caption>取消</caption>
+      </component>
+    </InputDlg>
+    <LocalityDlg>
+      <caption>创建 locality</caption>
+      <component name="NameLabel">
+        <Caption>名字:</Caption>
+      </component>
+      <component name="Label18">
+        <Caption>街道:</Caption>
+      </component>
+      <component name="Label19">
+        <Caption>省:</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </LocalityDlg>
+    <MailGroupDlg>
+      <Caption>创建邮件列表:</Caption>
+      <component name="Label1">
+        <Caption>列表名:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="TabSheet1">
+        <Caption>成员</Caption>
+      </component>
+      <component name="AddUserBtn">
+        <Caption>添加</Caption>
+      </component>
+      <component name="RemoveUserBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="TabSheet2">
+        <Caption>邮件地址</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>邮件路由地址:</Caption>
+      </component>
+      <component name="AddMailBtn">
+        <Caption>添加</Caption>
+      </component>
+      <component name="EditMailBtn">
+        <Caption>编辑</Caption>
+      </component>
+      <component name="DelMailBtn">
+        <Caption>删除</Caption>
+      </component>
+    </MailGroupDlg>
+    <MainFrm>
+      <component name="Label1">
+        <Caption>查找:</Caption>
+      </component>
+      <component name="mbNew">
+        <Caption>新条目</Caption>
+      </component>
+      <component name="pbNew">
+        <Caption>新条目</Caption>
+      </component>
+      <component name="mbStart">
+        <Caption>开始(&amp;S)</Caption>
+      </component>
+      <component name="mbEdit">
+        <Caption>编辑(&amp;E)</Caption>
+      </component>
+      <component name="mbView">
+        <Caption>视图(&amp;V)</Caption>
+      </component>
+      <component name="mbTools">
+        <Caption>工具(&amp;T)</Caption>
+      </component>
+      <component name="mbLanguage">
+        <Caption>语言(&amp;L)</Caption>
+      </component>
+      <component name="mbViewStyle">
+        <Caption>视图风格</Caption>
+      </component>
+      <component name="mbGetTemplates">
+        <Caption>获取模板...</Caption>
+      </component>
+      <component name="ActConnect">
+        <Caption>连接...</Caption>
+        <hint>连接ldap服务器</hint>
+      </component>
+      <component name="ActDisconnect">
+        <Caption>断开...</Caption>
+        <hint>断开连接</hint>
+      </component>
+      <component name="ActExit">
+        <Caption>退出</Caption>
+        <hint>退出LdapAdmin</hint>
+      </component>
+      <component name="UndoBtn">
+        <hint>撤销</hint>
+      </component>
+      <component name="RedoBtn">
+        <hint>重复</hint>
+      </component>
+      <component name="ActSchema">
+        <Caption>Schema...</Caption>
+        <hint>Schema 查看器</hint>
+      </component>
+      <component name="ActImport">
+        <Caption>导入数据...</Caption>
+      </component>
+      <component name="ActExport">
+        <Caption>导出数据...</Caption>
+      </component>
+      <component name="ActPreferences">
+        <Caption>会话参数...</Caption>
+      </component>
+      <component name="ActAbout">
+        <Caption>关于...</Caption>
+      </component>
+      <component name="ActPassword">
+        <Caption>设置密码...</Caption>
+      </component>
+      <component name="ActEditEntry">
+        <Caption>编辑条目...</Caption>
+        <hint>编辑选中条目</hint>
+      </component>
+      <component name="ActCopyEntry">
+        <Caption>复制条目...</Caption>
+      </component>
+      <component name="ActMoveEntry">
+        <Caption>移动条目...</Caption>
+      </component>
+      <component name="ActDeleteEntry">
+        <Caption>删除条目</Caption>
+        <hint>删除选中条目</hint>
+      </component>
+      <component name="ActRefresh">
+        <Caption>刷新</Caption>
+        <hint>刷新</hint>
+      </component>
+      <component name="ActSearch">
+        <Caption>搜索...</Caption>
+        <hint>搜索</hint>
+      </component>
+      <component name="ActProperties">
+        <Caption>属性...</Caption>
+        <hint>属性信息</hint>
+      </component>
+      <component name="ActViewBinary">
+        <Caption>二进制查看...</Caption>
+      </component>
+      <component name="ActValues">
+        <Caption>显示值</Caption>
+      </component>
+      <component name="ActEntries">
+        <Caption>显示条目</Caption>
+      </component>
+      <component name="ActIconView">
+        <Caption>图标</Caption>
+      </component>
+      <component name="ActListView">
+        <Caption>列表</Caption>
+      </component>
+      <component name="ActOptions">
+        <Caption>选项...</Caption>
+      </component>
+      <component name="ActLocateEntry">
+        <Caption>定位条目(快速搜索)...</Caption>
+      </component>
+      <component name="ActCopy">
+        <Caption>复制</Caption>
+      </component>
+      <component name="ActCopyDn">
+        <Caption>复制DN</Caption>
+      </component>
+      <component name="ActCopyValue">
+        <Caption>复制值</Caption>
+      </component>
+      <component name="ActCopyName">
+        <Caption>复制属性名称</Caption>
+      </component>
+      <component name="ActRenameEntry">
+        <Caption>重命名...</Caption>
+      </component>
+      <component name="ActFindInSchema">
+        <Caption>在Schema中查找...</Caption>
+      </component>
+      <component name="ActModifySet">
+        <Caption>批量修改...</Caption>
+        <hint>批量修改</hint>
+      </component>
+      <component name="ActEditValue">
+        <Caption>编辑值...</Caption>
+      </component>
+      <component name="ActAlias">
+        <Caption>创建别名...</Caption>
+      </component>
+      <component name="ActCustomizeMenu">
+        <Caption>自定义菜单...</Caption>
+      </component>
+      <component name="pbViewCert">
+        <Caption>View certificate...</Caption>
+      </component>
+      <component name="pbViewPicture">
+        <Caption>View Picture...</Caption>
+      </component>
+      <component name="ValueListView">
+        <columns>
+          <column>
+            <caption>属性</caption>
+          </column>
+          <column>
+            <caption>值</caption>
+          </column>
+          <column>
+            <caption>类型</caption>
+          </column>
+          <column>
+            <caption>大小</caption>
+          </column>
+        </columns>
+      </component>
+    </MainFrm>
+    <OuDlg>
+      <component name="NameLabel">
+        <Caption>名字:</Caption>
+      </component>
+      <component name="Label18">
+        <Caption>街道:</Caption>
+      </component>
+      <component name="Label19">
+        <Caption>省:</Caption>
+      </component>
+      <component name="Label24">
+        <Caption>邮编:</Caption>
+      </component>
+      <component name="Label31">
+        <Caption>城市:</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </OuDlg>
+    <PasswordDlg>
+      <Caption>设置密码</Caption>
+      <component name="Label1">
+        <Caption>新密码:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>确认密码:</Caption>
+      </component>
+      <component name="lbMethod">
+        <Caption>密码算法:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="cbSambaPassword">
+        <Caption>Samba 密码</Caption>
+      </component>
+      <component name="cbPosixPassword">
+        <Caption>Posix 密码</Caption>
+      </component>
+    </PasswordDlg>
+    <PickAttributesDlg>
+      <caption>属性选择</caption>
+      <component name="SrcLabel">
+        <Caption>可用的属性:</Caption>
+      </component>
+      <component name="DstLabel">
+        <Caption>使用的属性:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </PickAttributesDlg>
+    <PickupDlg>
+      <caption>Mitgliederauswahl</caption>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </PickupDlg>
+    <ViewPicFrm>
+      <component name="btnSave">
+        <hint>保存并关闭</hint>
+      </component>
+      <component name="btnToFile">
+        <hint>保存到文件</hint>
+      </component>
+      <component name="btnFromFile">
+        <hint>打开文件</hint>
+      </component>
+      <component name="btnCopy">
+        <hint>复制到剪贴板</hint>
+      </component>
+      <component name="btnPaste">
+        <hint>从剪贴板粘贴</hint>
+      </component>
+      <component name="btnFitToPicture">
+        <hint>改变窗口大小适应图像</hint>
+      </component>
+      <component name="btnResize">
+        <hint>改变图像尺寸适应窗口</hint>
+      </component>
+    </ViewPicFrm>
+    <PrefDlg>
+      <caption>参数编辑</caption>
+      <component name="tsPosix">
+        <Caption>Posix</Caption>
+      </component>
+      <component name="gbDefaults">
+        <Caption>缺省:</Caption>
+      </component>
+      <component name="lblHomeDir">
+        <Caption>主目录:</Caption>
+      </component>
+      <component name="lblLoginShell">
+        <Caption>登录Shell:</Caption>
+      </component>
+      <component name="lblUsername">
+        <Caption>用户名:</Caption>
+      </component>
+      <component name="lblDisplayname">
+        <Caption>显示名称:</Caption>
+      </component>
+      <component name="gbGroups">
+        <Caption>组:</Caption>
+      </component>
+      <component name="lblPosixGroup">
+        <Caption>Posix组:</Caption>
+      </component>
+      <component name="SetBtn">
+        <Caption>设置...</Caption>
+      </component>
+      <component name="cbxExtendGroups">
+        <Caption>Posix组扩展:</Caption>
+      </component>
+      <component name="tsID">
+        <Caption>ID 设置</Caption>
+      </component>
+      <component name="gbUserLimits">
+        <Caption>用户ID限定:</Caption>
+      </component>
+      <component name="lblFirstUId">
+        <Caption>开始UID:</Caption>
+      </component>
+      <component name="LastUid">
+        <Caption>结束UID:</Caption>
+      </component>
+      <component name="gbGroupLimits">
+        <Caption>组ID限定:</Caption>
+      </component>
+      <component name="lblFirstGid">
+        <Caption>开始GID:</Caption>
+      </component>
+      <component name="lblLastUid">
+        <Caption>结束UID:</Caption>
+      </component>
+      <component name="gbId">
+        <Caption>创建ID:</Caption>
+        <items>"不创建用户或组ID,"创建随机的用户或组ID","按顺序创建用户或组ID"</items>
+      </component>
+      <component name="gbSambaDefaults">
+        <Caption>默认设置:</Caption>
+      </component>
+      <component name="lblHomeShare">
+        <Caption>Home Share:</Caption>
+      </component>
+      <component name="lblProfilePath">
+        <Caption>Profile path:</Caption>
+      </component>
+      <component name="lblHomeDrive">
+        <Caption>Home drive:</Caption>
+      </component>
+      <component name="lblScript">
+        <Caption>Script:</Caption>
+      </component>
+      <component name="cbxLMPasswords">
+        <Caption>LANMAN-Password</Caption>
+      </component>
+      <component name="lblNetbios">
+        <Caption>NETBIOS-Name:</Caption>
+      </component>
+      <component name="lblDomainName">
+        <Caption>Domain Name:</Caption>
+      </component>
+      <component name="tsMail">
+        <Caption>E-Mail</Caption>
+      </component>
+      <component name="gbMailDefaults">
+        <Caption>默认设置:</Caption>
+      </component>
+      <component name="lblMD">
+        <Caption>缺省Maildrop:</Caption>
+      </component>
+      <component name="lblMA">
+        <Caption>缺省邮件地址:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="BtnWizard">
+        <Caption>创建默认值...</Caption>
+      </component>
+    </PrefDlg>
+    <PrefWizDlg>
+      <caption>profile向导</caption>
+      <component name="Label1">
+        <Caption>点击“下一步”继续...</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>向导将创建本连接的参数文件.</Caption>
+      </component>
+      <component name="ListView1">
+        <columns>类型,举例,设置</columns>
+        <items></items>
+      </component>
+      <component name="Label3">
+        <Caption>选择用户名格式:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>设置Samba NETBIOS服务器和域名称:</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>服务器 NETBIOS名字:</Caption>
+      </component>
+      <component name="Label6">
+        <Caption>Samba 域名称:</Caption>
+      </component>
+      <component name="Label7">
+        <Caption>输入邮件域及maildrop地址(仅Postfix):</Caption>
+      </component>
+      <component name="Label8">
+        <Caption>邮件域:</Caption>
+      </component>
+      <component name="Label9">
+        <Caption>Maildrop服务器:</Caption>
+      </component>
+      <component name="Label11">
+        <Caption>W?hlen Sie ein Format für Anzeigename:</Caption>
+      </component>
+      <component name="ListView1">
+        <columns>
+          <column>
+            <caption>类型</caption>
+          </column>
+          <column>
+            <caption>示例</caption>
+          </column>
+          <column>
+            <caption>参数</caption>
+          </column>
+        </columns>
+        <items>
+          <item>
+            <caption>First Name.Last name</caption>
+            <subitems>john,doe,%f.%l</subitems>
+          </item>
+          <item>
+            <caption>Lat name.First name</caption>
+            <subitems>doe,john,%l.%f</subitems>
+          </item>
+          <item>
+            <caption>First name首字母, Last name</caption>
+            <subitems>jdoe,%F%l</subitems>
+          </item>
+          <item>
+            <caption>Last name首字母.Firstname</caption>
+            <subitems>djohn,%L%f</subitems>
+          </item>
+          <item>
+            <caption>Last name</caption>
+            <subitems>doe,%l</subitems>
+          </item>
+          <item>
+            <caption>First name</caption>
+            <subitems>john,%f</subitems>
+          </item>
+        </items>
+      </component>
+      <component name="ListView2">
+        <columns>
+          <column>
+            <caption>类型</caption>
+          </column>
+          <column>
+            <caption>示例</caption>
+          </column>
+          <column>
+            <caption>参数</caption>
+          </column>
+        </columns>
+        <items>
+          <item>
+            <caption>Last name,First name</caption>
+            <subitems>"Doe,john","%l, %f"</subitems>
+          </item>
+          <item>
+            <caption>First name,Last name</caption>
+            <subitems>"john,Doe","%f %l"</subitems>
+          </item>
+          <item>
+            <caption>First name首字母, Last name</caption>
+            <subitems>"J.Doe", "%F. %l"</subitems>
+          </item>
+        </items>
+      </component>
+      <component name="btnNext">
+        <Caption>&amp;[N]下一步 &gt;</Caption>
+      </component>
+      <component name="btnBack">
+        <Caption>&lt; &amp;[B]上一步</Caption>
+      </component>
+      <component name="btnCancel">
+        <Caption>&amp;[C]取消</Caption>
+      </component>
+    </PrefWizDlg>
+    <SambaAdvancedDlg>
+      <caption>Samba高级设置</caption>
+      <component name="Label1">
+        <Caption>允许访问的工作站:</Caption>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+      <component name="FlagsGroup">
+        <Caption>附加的samba标志位:</Caption>
+      </component>
+      <component name="cbNoExpire">
+        <Caption>密码永不过期</Caption>
+      </component>
+      <component name="cbDomTrust">
+        <Caption>信任域账户</Caption>
+      </component>
+      <component name="cbHomeReq">
+        <Caption>需要Home目录</Caption>
+      </component>
+      <component name="cbServerTrust">
+        <Caption>信任服务器账户</Caption>
+      </component>
+      <component name="AddBtn">
+        <Caption>添加...</Caption>
+      </component>
+      <component name="RemoveBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>Samba账户过期:</Caption>
+      </component>
+      <component name="rbNever">
+        <Caption>从不</Caption>
+      </component>
+      <component name="rbAt">
+        <Caption>在...时</Caption>
+      </component>
+    </SambaAdvancedDlg>
+    <SchemaDlg>
+     <Caption>Schema查看器</Caption>
+      <component name="UndoBtn">
+        <hint>后退</hint>
+      </component>
+      <component name="RedoBtn">
+        <hint>前进</hint>
+      </component>
+      <component name="Label1">
+        <Caption>查找:</Caption>
+      </component>
+      <component name="btnSave">
+        <hint>输出LDIF文件</hint>
+      </component>
+      <component name="btnClose">
+        <hint>关闭</hint>
+      </component>
+      <component name="WholeWordsCbx">
+        <Caption>只匹配整个词语</Caption>
+      </component>
+      <component name="pmCopy">
+        <Caption>复制...</Caption>
+      </component>
+      <component name="pmUndo">
+        <Caption>撤销</Caption>
+      </component>
+      <component name="pmOpen">
+        <Caption>打开链接</Caption>
+      </component>
+      <component name="pmOpenNewTab">
+        <Caption>打开链接到新Tab页</Caption>
+      </component>
+    </SchemaDlg>
+    <SearchFrm>
+      <caption>Suche</caption>
+      <component name="Label5">
+        <Caption>搜索:</Caption>
+      </component>
+      <component name="PathBtn">
+        <Caption>浏览...</Caption>
+      </component>
+      <component name="TabSheet1">
+        <Caption>搜索</Caption>
+      </component>
+      <component name="Label6">
+        <Caption>名字:</Caption>
+      </component>
+      <component name="Label7">
+        <Caption>邮箱:</Caption>
+      </component>
+      <component name="TabSheet2">
+        <Caption>自定义</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>过滤器:</Caption>
+      </component>
+      <component name="SaveFilterBtn">
+        <Caption>保存</Caption>
+      </component>
+      <component name="DeleteFilterBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="TabSheet3">
+        <Caption>选项</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>属性:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>搜索级别:</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>引用别名:</Caption>
+      </component>
+      <component name="edAttrBtn">
+        <Caption>编辑...</Caption>
+      </component>
+      <component name="cbSearchLevel">
+        <items>"本条目","下一级","条目子树"</items>
+      </component>
+      <component name="cbDerefAliases">
+        <left>360</left>
+        <width>170</width>
+        <items>从不,"搜索到","查找到",一直</items>
+      </component>
+      <component name="StartBtn">
+        <Caption>开始</Caption>
+      </component>
+      <component name="ClearAllBtn">
+        <height>56</height>
+        <WordWrap>true</WordWrap>
+        <Caption>清除所有</Caption>
+      </component>
+      <component name="btnSearch">
+        <hint>搜索</hint>
+      </component>
+      <component name="btnModify">
+        <hint>修改</hint>
+      </component>
+      <component name="ActStart">
+        <Caption>开始</Caption>
+        <hint>开始搜索</hint>
+      </component>
+      <component name="ActGoto">
+        <Caption>跳转...</Caption>
+        <hint>跳转到LDAP树位置</hint>
+      </component>
+      <component name="ActProperties">
+        <Caption>属性...</Caption>
+        <hint>对象属性</hint>
+      </component>
+      <component name="ActSave">
+        <Caption>保存</Caption>
+        <hint>保存搜素结果</hint>
+      </component>
+      <component name="ActEdit">
+        <Caption>编辑条目...</Caption>
+        <hint>使用基本编辑器编辑条目</hint>
+      </component>
+      <component name="ActClose">
+        <Caption>关闭</Caption>
+        <hint>关闭</hint>
+      </component>
+      <component name="ActClearAll">
+        <Caption>清除所有</Caption>
+      </component>
+    </SearchFrm>
+    <TransportDlg>
+      <caption>创建转换表</caption>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </TransportDlg>
+    <UserDlg>
+      <caption>创建用户</caption>
+      <component name="AccountSheet">
+        <Caption>账户</Caption>
+      </component>
+      <component name="Label1">
+        <Caption>First name:</Caption>
+      </component>
+      <component name="Label2">
+        <Caption>Second name:</Caption>
+      </component>
+      <component name="Label3">
+        <Caption>现实名称:</Caption>
+      </component>
+      <component name="Label4">
+        <Caption>用户名:</Caption>
+      </component>
+      <component name="Label5">
+        <Caption>首字母:</Caption>
+      </component>
+      <component name="Label9">
+        <Caption>用户主目录:</Caption>
+      </component>
+      <component name="Label12">
+        <Caption>Gecos:</Caption>
+      </component>
+      <component name="Label14">
+        <Caption>Login-Shell:</Caption>
+      </component>
+      <component name="GroupBox1">
+        <Caption>账户扩展属性</Caption>
+      </component>
+      <component name="cbShadow">
+        <Caption>Shadow账户</Caption>
+      </component>
+      <component name="cbMail">
+        <Caption>Mail账户</Caption>
+      </component>
+      <component name="cbSamba">
+        <Caption>Samba账户</Caption>
+      </component>
+      <component name="RadioGroup1">
+        <Caption>账户到期</Caption>
+      </component>
+      <component name="ShadowPropertiesGroup">
+        <Caption>shadow属性</Caption>
+      </component>
+      <component name="Label35">
+        <Caption>Min Shadow:</Caption>
+      </component>
+      <component name="Label37">
+        <Caption>Shadow Warning:</Caption>
+      </component>
+      <component name="Label38">
+        <Caption>Last change:</Caption>
+      </component>
+      <component name="Label39">
+        <Caption>Max Shadow:</Caption>
+      </component>
+      <component name="Label40">
+        <Caption>Shadow inactive:</Caption>
+      </component>
+      <component name="RadioGroup1">
+        <items>从不</items>
+      </component>
+      <component name="SambaSheet">
+        <Caption>Samba</Caption>
+      </component>
+      <component name="Label6">
+        <Caption>脚步:</Caption>
+      </component>
+      <component name="Label7">
+        <Caption>主目录盘符:</Caption>
+      </component>
+      <component name="Label8">
+        <Caption>参数文件路径:</Caption>
+      </component>
+      <component name="Label13">
+        <Caption>Home共享:</Caption>
+      </component>
+      <component name="Label21">
+        <Caption>描述:</Caption>
+      </component>
+      <component name="Label36">
+        <Caption>samba域:</Caption>
+      </component>
+      <component name="cbPwdMustChange">
+        <Caption>下次登录用户必须修改密码</Caption>
+      </component>
+      <component name="cbPwdCantChange">
+        <Caption>用户不允许修改密码</Caption>
+      </component>
+      <component name="BtnAdvanced">
+        <Caption>高级设置...</Caption>
+      </component>
+      <component name="cbAccntDisabled">
+        <Caption>账户被禁用</Caption>
+      </component>
+      <component name="MailSheet">
+        <Caption>Mail</Caption>
+      </component>
+      <component name="Label10">
+        <Caption>Maildrop:</Caption>
+      </component>
+      <component name="Label11">
+        <Caption>E-Mail 地址:</Caption>
+      </component>
+      <component name="AddMailBtn">
+        <Caption>添加</Caption>
+      </component>
+      <component name="EditMailBtn">
+        <Caption>编辑</Caption>
+      </component>
+      <component name="DelMailBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="OfficeSheet">
+        <Caption>名片</Caption>
+      </component>
+      <component name="Label15">
+        <Caption>寻呼机:</Caption>
+      </component>
+      <component name="Label18">
+        <Caption>街道:</Caption>
+      </component>
+      <component name="Label19">
+        <Caption>省:</Caption>
+      </component>
+      <component name="Label22">
+        <Caption>电话:</Caption>
+      </component>
+      <component name="Label24">
+        <Caption>邮编:</Caption>
+      </component>
+      <component name="Label25">
+        <Caption>办公地址:</Caption>
+      </component>
+      <component name="Label27">
+        <Caption>职位:</Caption>
+      </component>
+      <component name="Label29">
+        <Caption>单位:</Caption>
+      </component>
+      <component name="Label30">
+        <Caption>Fax:</Caption>
+      </component>
+      <component name="Label31">
+        <Caption>城市:</Caption>
+      </component>
+      <component name="PrivateSheet">
+        <Caption>个人信息</Caption>
+      </component>
+      <component name="Label17">
+        <Caption>地址:</Caption>
+      </component>
+      <component name="Label23">
+        <Caption>Fax:</Caption>
+      </component>
+      <component name="Label26">
+        <Caption>电话:</Caption>
+      </component>
+      <component name="Label28">
+        <Caption>手机:</Caption>
+      </component>
+      <component name="OpenPictureBtn">
+        <Caption>打开...</Caption>
+      </component>
+      <component name="DeleteJpegBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="GroupSheet">
+        <Caption>组成员</Caption>
+      </component>
+      <component name="Label34">
+        <Caption>成员:</Caption>
+      </component>
+      <component name="Label33">
+        <Caption>基本组:</Caption>
+      </component>
+      <component name="AddGroupBtn">
+        <Caption>添加</Caption>
+      </component>
+      <component name="RemoveGroupBtn">
+        <Caption>删除</Caption>
+      </component>
+      <component name="PrimaryGroupBtn">
+        <Caption>设置...</Caption>
+      </component>
+      <component name="cbxGroups">
+        <items>"全部组","Posix组","Samba组","Mail组"</items>
+      </component>
+      <component name="CancelBtn">
+        <Caption>取消</Caption>
+      </component>
+    </UserDlg>
+  </forms>
+  <strings>
+    <s1>添加</s1>
+    <s2>添加地址</s2>
+    <s3>值</s3>
+    <s4>&amp;视图:</s4>
+    <s5>缩略图视图: </s5>
+    <s6>警告</s6>
+    <s7>重试</s7>
+    <s8>Samba域</s8>
+    <s9>使用当前用户凭证</s9>
+    <s10>保存到LDAP</s10>
+    <s11>搜索base</s11>
+    <s12>搜索结果:</s12>
+    <s13>选择别名路径</s13>
+    <s14>选择条目</s14>
+    <s15>服务器: %s</s15>
+    <s16>设置密码...</s16>
+    <s17>忽略</s17>
+    <s18>忽略全部</s18>
+    <s19>智能删除</s19>
+    <s20>SMTP 地址:</s20>
+    <s21>Second name</s21>
+    <s22>文本</s22>
+    <s23>新建子菜单</s23>
+    <s24>新建值</s24>
+    <s25>下一个</s25>
+    <s26>Objectclass</s26>
+    <s27>&amp;确定</s27>
+    <s28>旧值</s28>
+    <s29>操作:</s29>
+    <s30>父目录:</s30>
+    <s31>密码:</s31>
+    <s32>Pfad: %s</s32>
+    <s33>选择账户</s33>
+    <s34>选择组</s34>
+    <s35>准备...</s35>
+    <s36>进程:</s36>
+    <s37>%s 扩展属性</s37>
+    <s38>内部默认</s38>
+    <s39>16进制:</s39>
+    <s40>主目录</s40>
+    <s41>主机名:</s41>
+    <s42>图像</s42>
+    <s43>信息</s43>
+    <s44>IP地址</s44>
+    <s45>Maildrop</s45>
+    <s46>Ok.</s46>
+    <s47>忽略.</s47>
+    <s48>更多...</s48>
+    <s49>移动条目 %s 到...</s49>
+    <s50>移动中...</s50>
+    <s51>名字</s51>
+    <s52>&lt;&lt;新建&gt;&gt;</s52>
+    <s53>新建条目</s53>
+    <s54>新建项</s54>
+    <s55>10进制:</s55>
+    <s56>删除</s56>
+    <s57>删除中:</s57>
+    <s58>描述</s58>
+    <s59>详细</s59>
+    <s60>编辑</s60>
+    <s61>编辑地址</s61>
+    <s62>编辑条目</s62>
+    <s63>编辑主机</s63>
+    <s64>编辑值</s64>
+    <s65>English</s65>
+    <s66>输入新的值:</s66>
+    <s67>输入密码</s67>
+    <s68>输入rdn:</s68>
+    <s69>错误</s69>
+    <s70>完成</s70>
+    <s71>加入属性...</s71>
+    <s72>新建连接</s72>
+    <s73>增加主机</s73>
+    <s74>增加值</s74>
+    <s75>匿名连接</s75>
+    <s76>LDAP Admin</s76>
+    <s77>属性</s77>
+    <s78>属性名:</s78>
+    <s79>二进制</s79>
+    <s80>浏览...</s80>
+    <s81>取消</s81>
+    <s82>证书</s82>
+    <s83>关闭</s83>
+    <s84>确认</s84>
+    <s85>复制...</s85>
+    <s86>复制 %s nach...</s86>
+    <s87>&amp;[N]新建...</s87>
+    <s88>&amp;[E]编辑...</s88>
+    <s89>&amp;[U]用户...</s89>
+    <s90>&amp;[C]电脑...</s90>
+    <s91>&amp;[G]组...</s91>
+    <s92>&amp;[M]邮箱...</s92>
+    <s93>&amp;[T}转换表...</s93>
+    <s94>&amp;OU...</s94>
+    <s95>&amp;[H]主机...</s95>
+    <s96>&amp;[L]地方...</s96>
+    <s97>按唯一名称分组...</s97>
+    <s98>别名...</s98>
+    <s99>无效(非闭合)参数!</s99>
+    <s100>非闭合字符串!</s100>
+    <s101>未知值类型.\nkey:%s\nvalue:%s\"</s101>
+    <s102>不支持的认证方法: %s!</s102>
+    <s103>不支持的脚本类型: </s103>
+    <s104>用户中断!</s104>
+    <s105>不能改写只读属性 !</s105>
+    <s106>Ldif文件, Windows换行格式(CR/LF) (*.ldif)|*.ldif|Ldif-Datei, Unix 换行格式 (LF) (*.ldif)|*.ldif|CSV (逗号分隔) (*.csv)|*.csv|XML (*.xml)|*.xml</s106>
+    <s107>文本文件 (*.txt)|*.txt</s107>
+    <s108>%s 不能为空值!</s108>
+    <s109>%s 是必填项!</s109>
+    <s110>账户已被SAMBA服务器锁住?你要设置autolock标志位吗?</s110>
+    <s111>读取中: %d 对象恢复. 按[ESC]键中止...</s111>
+    <s112>SASL 加密不能用于SSL连接!</s112>
+    <s113>未能找到SubschemaSubentry!</s113>
+    <s114>过程 \%s\" 不能定位."</s114>
+    <s115>属性 '%s' 不是事件!</s115>
+    <s116>'%s' 不支持 '%s' 事件!</s116>
+    <s117>不支持的参数类型!</s117>
+    <s118>不能将set 转换为 integer!</s118>
+    <s119>激活本选项在用户量很大时可能导致的过大的网络流量. 除非是真的需要顺序ID号，否则请保持缺省的随机ID号方式。</s119>
+    <s120>%s\n\r忽略本记录?</s120>
+    <s121>停止TLS错误! 连接将关闭.</s121>
+    <s122>时间格式</s122>
+    <s123>太多参数!</s123>
+    <s124>不能移动. 源路径和目标路径相同!</s124>
+    <s125>Vista以上版本，完成本操作需要用Administrator权限运行ldapadmin!</s125>
+    <s126>连接错误，无法定位当前活动连接!</s126>
+    <s127>未来将不能执行此项检查.</s127>
+    <s128>Pool ausgeschopft! Für %s! stehen keine freie ID's zu Verfügung!</s128>
+    <s129>Sie sollten die ID-Erstellung nur dann deaktivieren wenn die ID's serverseitig zugewiesen werden. Anderenfalls werden keine Benutzer oder Gruppen erstellt werden k?nnen.</s129>
+    <s130>本条目必须输入唯一的rdn!</s130>
+    <s131>不能调入LDAP Schema!</s131>
+    <s132>参数不足!</s132>
+    <s133>数字</s133>
+    <s134>%d Object</s134>
+    <s135>两次输入的密码不匹配!</s135>
+    <s136>Passwort für %s:</s136>
+    <s137>只读属性!</s137>
+    <s138>Regexp:验证失败!</s138>
+    <s139>至少需要定义一个E-Mail地址!</s139>
+    <s140>第 %d 行,空行也行不能折叠!</s140>
+    <s141>内部错误: 无效的 LDIF-Mode!</s141>
+    <s142>第 %d 行: 缺少 \":\".</s142>
+    <s143>第 %d 行: 期望dn而非%s!</s143>
+    <s144>到文件尾部!</s144>
+    <s145>无效的版本号: %s!</s145>
+    <s146>%d Object(s) 不能导入!</s146>
+    <s147>无效的 URL!</s147>
+    <s148>第 %d 行: 无效的属性名, 期望\"%s\"  而非 \"%s\" !</s148>
+    <s149>第 %d 行: 无效的类型转换 \"%s\"!</s149>
+    <s150>第 %d 行: 无效操作 \"%s\"!</s150>
+    <s151>第 %d 行: 期望\%s\"  而非 \"%s\" !</s151>
+    <s152>%d Object(s) 成功导入!</s152>
+    <s153>无效的URL!</s153>
+    <s154>模板名不能为空!</s154>
+    <s155>找不到关联的模板 \%s\" !"</s155>
+    <s156>LDAPAdmin 不是默认LDAP浏览器.\n你要设成默认浏览器吗?</s156>
+    <s157>文件 '%s' 已存在, 需要覆盖吗?</s157>
+    <s158>不能获得 %s 过程的地址.</s158>
+    <s159> 选定的主要组不是Samba组或者没有映射到用户域，继续吗?</s159>
+    <s160>组中至少要输入一个邮件地址!</s160>
+    <s161>必须输入组名!</s161>
+    <s162>"\%s\" 不是一个有效的 %s!</s162>
+    <s163>整数</s163>
+    <s164>无效参数 Index: %d</s164>
+    <s165>无效的命令行LDAP版本: %s</s165>
+    <s166>无效或不支持的过滤器类型!</s166>
+    <s167>&lt;%s&gt; 中无效的值 %s !</s167>
+    <s168>无效的时间格式!</s168>
+    <s169>无效的URL格式!</s169>
+    <s170>LDAP 错误: %s!</s170>
+    <s171>LDAP 错误! %s: %s.</s171>
+    <s172>自己颁发的根证书.</s172>
+    <s173>没有找到 %s 类!</s173>
+    <s174>%d Object(s)寻回.</s174>
+    <s175>%d 子项目录</s175>
+    <s176>确定删除条目 "%s" l?</s176>
+    <s177>确定删除账户 "%s" ?</s177>
+    <s178>确定删除这 %d 个条目?</s178>
+    <s179>日期格式</s179>
+    <s180>"%s"\n\r 目录条目非空，递归删除所有吗?"</s180>
+    <s181>删除菜单项?</s181>
+    <s182>删除子菜单?</s182>
+    <s183> %s 属性包含条目名，确定要删除吗?</s183>
+    <s184>'%s' 快捷键已经分配给菜单项'%s' !</s184>
+    <s185>参数为空!</s185>
+    <s186>错误的提取方法名! !</s186>
+    <s187>错误设置 %s 事件: 不支持%s 事件类型!</s187>
+    <s188>连接成功.</s188>
+    <s189>中止脚本?</s189>
+    <s190>已有同名账户.\n\r?覆盖它吗?</s190>
+    <s191>必须给连接输入一个名字!</s191>
+    <s192>复制 %s 到 %s ?</s192>
+    <s193>移动 %s 到 %s ?</s193>
+    <s194>这里不能保存密码!</s194>
+    <s195>连接的服务器证书无法验证!\n\r\n\r%s\n\r ，继续?</s195>
+    <s196>安全证书无效或与服务器名字不匹配!</s196>
+    <s197>签名检查错误!</s197>
+    <s198>安全证书过期或无效!</s198>
+    <s199>证书发放者证书无效!</s199>
+    <s200>unknown</s200>
+    <s201>账户: %s</s201>
+    <s202>用户名</s202>
+    <s203>用户提示</s203>
+    <s204>\"%s\" 不是LDAP Admin账户文件!</s204>
+    <s205>不完整的XML.</s205>
+    <s206>期望 \"%s\" r 而非 \"%s\" </s206>
+    <s207>非期望的结束标记 \"%s\"</s207>
+    <s208>未设置缺省打印机</s208>
+    <s209>菜单 '%s' 已被其它窗口使用</s209>
+    <s210>图片:</s210>
+    <s211> (%dx%d)</s211>
+    <s212>预览</s212>
+    <s213>不能打开AVI</s213>
+    <s214>Docked control must have a name.</s214>
+    <s215>Error removing control from dock tree</s215>
+    <s216> - Dock zone not found</s216>
+    <s217> - Dock zone has no control</s217>
+    <s218>Multiselect mode must be on for this feature</s218>
+    <s219>Separator</s219>
+    <s220>Error settting %s.Count</s220>
+    <s221>Listbox (%s) style must be virtual in roder to set Count</s221>
+    <s222>No OnGetItem event handler assigned</s222>
+    <s223>Inhaltsverzeichnis konnte nicht gefunden werden</s223>
+    <s224>Right</s224>
+    <s225>Down</s225>
+    <s226>Ins</s226>
+    <s227>Del</s227>
+    <s228>Shift+</s228>
+    <s229>Ctrl+</s229>
+    <s230>Alt+</s230>
+    <s231>(None)</s231>
+    <s232>Value must between %d and %d</s232>
+    <s233>All</s233>
+    <s234>Unable insert a line</s234>
+    <s235>Invalid clipboard format</s235>
+    <s236>clipboard does not support icons</s236>
+    <s237>cannot open clipboard</s237>
+    <s238>Default</s238>
+    <s239>Text exceeds memo capacity</s239>
+    <s240>&amp;Retry</s240>
+    <s241>&amp;Ignore</s241>
+    <s242>&amp;All</s242>
+    <s243>&amp;o to All</s243>
+    <s244>Yes to &amp;All</s244>
+    <s245>Bksp</s245>
+    <s246>Tab</s246>
+    <s247>Esc</s247>
+    <s248>Enter</s248>
+    <s249>Space</s249>
+    <s250>pgUp</s250>
+    <s251>pgDn</s251>
+    <s252>End</s252>
+    <s253>Home</s253>
+    <s254>Left</s254>
+    <s255>Up</s255>
+    <s256>Metafiles</s256>
+    <s257>Enhanced Metafiles</s257>
+    <s258>Icons</s258>
+    <s259>Bitmaps</s259>
+    <s260>Invalid input value</s260>
+    <s261>Invalid input value. Use escape key to abandon changes.</s261>
+    <s262>Warning</s262>
+    <s263>Error</s263>
+    <s264>Information</s264>
+    <s265>Confirm</s265>
+    <s266>&amp;Yes</s266>
+    <s267>&amp;No</s267>
+    <s268>OK</s268>
+    <s269>Cancel</s269>
+    <s270>&amp;Help</s270>
+    <s271>&amp;Abort</s271>
+    <s272>Operation not support on selecte printer.</s272>
+    <s273>%s an %s</s273>
+    <s274>GroupIndex cannot be less than a previous menu item ''s GroupIndex</s274>
+    <s275>cannot create form. No MDI forms are currentily active</s275>
+    <s276>A control cannot have itself as its parent</s276>
+    <s277>OK</s277>
+    <s278>Cancel</s278>
+    <s279>&amp;Yes</s279>
+    <s280>&amp;No</s280>
+    <s281>&amp;Help</s281>
+    <s282>&amp;Close</s282>
+    <s283>&amp;Ignore</s283>
+    <s284>&amp;Retry</s284>
+    <s285>Abort</s285>
+    <s286>&amp;All</s286>
+    <s287>cannot drag a form</s287>
+    <s288>Error creating window device context</s288>
+    <s289>Error creating window class</s289>
+    <s290>cannot focus a disabled or invisible window</s290>
+    <s291>Control '%s' has no parent window</s291>
+    <s292>parent given is not a parent of '%s'</s292>
+    <s293>cannot hide an MDI child Form</s293>
+    <s294>cannot change Visible in OnShow or OnHide</s294>
+    <s295>Cannot make a visible window modal</s295>
+    <s296>Scrollbar property out of range</s296>
+    <s297>%s property out of range</s297>
+    <s298>Menu index out of range</s298>
+    <s299>Menu inserted twice</s299>
+    <s300>Sub-menu is not in menu</s300>
+    <s301>Not enough timers available</s301>
+    <s302>Printer is not currently printing</s302>
+    <s303>Pringing in progress</s303>
+    <s304>Metafile is not valid</s304>
+    <s305>Invalid pixel format</s305>
+    <s306>Invalid image</s306>
+    <s307>Scan line index out of range</s307>
+    <s308>Cannot change the size of an icon</s308>
+    <s309>Invalid Operation on TOleGraphic</s309>
+    <s310>Unbekannte picture file extension (.%s)</s310>
+    <s311>Unsupported clipboard format</s311>
+    <s312>Out of system resoureces.</s312>
+    <s313>Canvas does not allow drawing</s313>
+    <s314>Invalid image size</s314>
+    <s315>Invalid imageList</s315>
+    <s316>Unable to Replace Image</s316>
+    <s317>Invalid ImageList-Index</s317>
+    <s318>Faild to read ImageList data from stream</s318>
+    <s319>Faild to write ImageList data from stream</s319>
+    <s320>Property is read-only</s320>
+    <s321>Failed to create key %s</s321>
+    <s322>Failed to get data for '%s'</s322>
+    <s323>Failed to set data for '%s'</s323>
+    <s324>Resource %s not found</s324>
+    <s325>%s.Seek not implemented</s325>
+    <s326>Operation not allowed on sorted list</s326>
+    <s327>Too many rows or columns deleted</s327>
+    <s328>%s not in a class registration group</s328>
+    <s329>Property %s does not exist.</s329>
+    <s330>Stream write error</s330>
+    <s331>Tab index out of bounds</s331>
+    <s332>Tab position incompatible with current tab style.</s332>
+    <s333>Tab style incompatible with current tab position.</s333>
+    <s334>Bitmap image is not valid</s334>
+    <s335>Icon image is not valid</s335>
+    <s336>Grid index out of</s336>
+    <s337>Invalid stream format</s337>
+    <s338>'%s' is not a valid component name</s338>
+    <s339>Invalid property value</s339>
+    <s340>Invalid property element: %s</s340>
+    <s341>Invalid property path</s341>
+    <s342>Invalid property type: %s</s342>
+    <s343>Invalid property value</s343>
+    <s344>Invalid data type for '%s'</s344>
+    <s345>Cannot insert or delete rows from grid</s345>
+    <s346>List capacity out of(%d) </s346>
+    <s347>boundsList count out of bounds(%d)</s347>
+    <s348>List index out of bounds(%d)</s348>
+    <s349>Out of memory while expanding memory stream</s349>
+    <s350>Error reading %s%s%s: %s</s350>
+    <s351>Stream read error</s351>
+    <s352>Ancestor for  '%s'  not found</s352>
+    <s353>assign a %s to a %s </s353>
+    <s354>Bits index out of range</s354>
+    <s355>Can''t write to a read-only resource stream</s355>
+    <s356>CheckSynchronize called from thread $%x, which is NOT the main thread.</s356>
+    <s357>Class %s not found</s357>
+    <s358>A class named %s already exists</s358>
+    <s359>List does not allow duplicates ($0%x)</s359>
+    <s360>A component named %s already exists</s360>
+    <s361>String list does not allow duplicates</s361>
+    <s362>Cannot create file "%s". %s</s362>
+    <s363>Fixed column count must be less than column count</s363>
+    <s364>Fixed row count must be less than row count</s364>
+    <s365>Cannot open file "%s". %s</s365>
+    <s366>Grid too large for operation</s366>
+    <s367>Oct</s367>
+    <s368>Nov</s368>
+    <s369>Dec</s369>
+    <s370>Sun</s370>
+    <s371>Mon</s371>
+    <s372>tue</s372>
+    <s373>wed</s373>
+    <s374>thu</s374>
+    <s375>Fri</s375>
+    <s376>Sat</s376>
+    <s377>Sunday</s377>
+    <s378>Monday</s378>
+    <s379>Tuesday</s379>
+    <s380>Wednesday</s380>
+    <s381>Thursday</s381>
+    <s382>Friday</s382>
+    <s383>Saturday</s383>
+    <s384>Jun</s384>
+    <s385>Jul</s385>
+    <s386>Aug</s386>
+    <s387>Sep</s387>
+    <s388>Oct</s388>
+    <s389>Nov</s389>
+    <s390>Dec</s390>
+    <s391>January</s391>
+    <s392>February</s392>
+    <s393>March</s393>
+    <s394>April</s394>
+    <s395>May</s395>
+    <s396>June</s396>
+    <s397>July</s397>
+    <s398>August</s398>
+    <s399>September</s399>
+    <s400>Operation not supported</s400>
+    <s401>Unexpected variant error</s401>
+    <s402>External exception %x</s402>
+    <s403>Assertion failed</s403>
+    <s404>Interface not supported</s404>
+    <s405>Exception in safecall method</s405>
+    <s406>%s (%s, line %d)</s406>
+    <s407>Abstract Error</s407>
+    <s408>Access violation at address %p in module ''%s''. %s of address %p</s408>
+    <s409>System Error.  Code: %d.\r\n%s</s409>
+    <s410>A call to an OS function failed</s410>
+    <s411>Jan</s411>
+    <s412>Feb</s412>
+    <s413>Mar</s413>
+    <s414>Apr</s414>
+    <s415>May</s415>
+    <s416>No argument for format '%s'</s416>
+    <s417>Variant method calls not supported</s417>
+    <s418>Read</s418>
+    <s419>Write</s419>
+    <s420>Error creating variant or safe array</s420>
+    <s421>Variant or safe array index out of bounds</s421>
+    <s422>Variant or safe array is locked</s422>
+    <s423>Invalid variant type conversion</s423>
+    <s424>Invalid variant operation</s424>
+    <s425>Invalid NULL variant operation</s425>
+    <s426>Invalid variant operation (%s%.8x)\n%s</s426>
+    <s427>Could not convert variant of type (%s) into type (%s)</s427>
+    <s428>Overflow while converting variant of type (%s) into type (%s)</s428>
+    <s429>Variant overflow</s429>
+    <s430>Invalid Argument</s430>
+    <s431>Invalid Variant-Type</s431>
+    <s432>Integer overflow</s432>
+    <s433>Invalid floating point operation</s433>
+    <s434>Floating point division by zero</s434>
+    <s435>Floating point overflow</s435>
+    <s436>Floating point underflow</s436>
+    <s437>Invalid pointer operation</s437>
+    <s438>Invalid class typecast</s438>
+    <s439>Access violation at address %p. %s of address %p</s439>
+    <s440>Access violation</s440>
+    <s441>Stack overflow</s441>
+    <s442>Control-C hit</s442>
+    <s443>Privileged instruction</s443>
+    <s444>Operation aborted</s444>
+    <s445>Exception %s in Module %s at %p.\r\n%s%s\r\n</s445>
+    <s446>Application Error</s446>
+    <s447>Format '%s' invalid or incompatible with argument</s447>
+    <s448>'%s' is not a valid integer value</s448>
+    <s449>'%s' is not a valid floating point value</s449>
+    <s450>'%s' is not a valid date and time</s450>
+    <s451>Invalid argument to time encode</s451>
+    <s452>Invalid argument to date encode</s452>
+    <s453>Out of memory</s453>
+    <s454>I/O error %d</s454>
+    <s455>File not found</s455>
+    <s456>Invalid filename</s456>
+    <s457>Too many open files</s457>
+    <s458>File access denied</s458>
+    <s459>Read beyond end of file</s459>
+    <s460>Disk full</s460>
+    <s461>Invalid numeric input</s461>
+    <s462>Division by zero</s462>
+    <s463>Range check error</s463>
+    <s464>%d is an invalid PageIndex value.  PageIndex must be between 0 and %d</s464>
+    <s465>This control requires version 4.70 or greater of COMCTL32.DLL</s465>
+    <s466>Date exceeds maximum of %s</s466>
+    <s467>Date is less than minimum of %s</s467>
+    <s468>You must be in ShowCheckbox mode to set to this date</s468>
+    <s469>Failed to set calendar date or time</s469>
+    <s470>Failed to set maximum selection range</s470>
+    <s471>Failed to set calendar min/max range</s471>
+    <s472>Failed to set calendar selected range</s472>
+    <s473>Failed to clear tab control</s473>
+    <s474>Failed to delete tab at index d%</s474>
+    <s475>Failed to retrieve tab at index %d</s475>
+    <s476>Failed to get object at index %d</s476>
+    <s477>Failed to set tab "%s" at index %d</s477>
+    <s478>Failed to set object at index %d</s478>
+    <s479>MultiLine must be True when TabPosition is tpLeft or tpRight</s479>
+    <s480>Invalid index</s480>
+    <s481>Unable to insert an item</s481>
+    <s482>Invalid owner</s482>
+    <s483>RichEdit line insertion error</s483>
+    <s484>Failed to Load Stream</s484>
+    <s485>Failed to Save Stream</s485>
+    <s486>%s is already associated with %s</s486>
+    <s487>OLE error %.8x</s487>
+    <s488>Method '%s' not supported by automation object</s488>
+    <s489>Variant does not reference an automation object</s489>
+    <s490>Dispatch methods do not support more than 64 parameters.</s490>
+    <s491>DCOM not installed</s491>
+    <s492>JPEG Image File</s492>
+    <s493>Cannot change the size of a JPEG image</s493>
+    <s494>JPEG error #%d</s494>
+    <s495>OLE control activation failed</s495>
+    <s496>Could not obtain OLE control window handle</s496>
+    <s497>License information for %s is invalid</s497>
+    <s498>License information for %s not found. You cannot use this control in design mode</s498>
+    <s499>Unable to retrieve a pointer to a running object registered with OLE for %s/%s</s499>
+    <s500>No help found for %s</s500>
+    <s501>No context-sensitive help installed</s501>
+    <s502>No topic-based help system installed.</s502>
+    <s503>Choose members</s503>
+  </strings>
+</lang>
